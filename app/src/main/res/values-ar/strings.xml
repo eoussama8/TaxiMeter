@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">عداد التكسي</string>
+    <string name="navigation_drawer_open">فتح درج التنقل</string>
+    <string name="navigation_drawer_close">إغلاق درج التنقل</string>
+
+    <string name="action_settings">الإعدادات</string>
+
+    <string name="language_setting">إعدادات اللغة</string>
+    <string name="english">الإنجليزية</string>
+    <string name="french">الفرنسية</string>
+    <string name="arabic">العربية</string>
+
+    <string name="distance_display">%.2f كم</string>
+    <string name="time_display">%d دقيقة</string>
+    <string name="fare_display">%.2f MAD</string>
+
+    <string name="menu_maps">الخرائط</string>
+    <string name="menu_meter">العداد</string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="no_history_available">لا يوجد تاريخ متاح</string>
+    <string name="menu_history">التاريخ</string>
+    <string name="menu_profile">الملف الشخصي</string>
+
+    <string name="google_maps_key">AIzaSyAOVYRIgupAurZup5y1PRh8Ismb1A3lLao</string>
+
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="forgot_password">هل نسيت كلمة المرور؟</string>
+    <string name="signin">تسجيل الدخول</string>
+    <string name="or_continue_with">أو تابع باستخدام</string>
+    <string name="register">تسجيل</string>
+    <string name="welcome">مرحبًا</string>
+    <string name="sign_up">اشتراك</string>
+    <string name="subtitle_text">لوريم إيبسوم دولور سيت أميت</string>
+    <string name="email_hint">البريد الإلكتروني</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="confirm_password_hint">تأكيد كلمة المرور</string>
+    <string name="sign_up_button">اشترك</string>
+    <string name="continue_with_google">تواصل باستخدام جوجل</string>
+
+    <string name="distance_label">المسافة</string>
+    <string name="distance_value">0.00 كم</string>
+    <string name="time_label">الوقت</string>
+    <string name="time_value">0 دقيقة</string>
+    <string name="fare_label">الأجرة</string>
+    <string name="fare_value">0.00 MAD</string>
+    <string name="start_button">ابدأ</string>
+    <string name="stop_button">إيقاف</string>
+    <string name="reset_button">إعادة تعيين</string>
+
+    <string name="first_name_hint">الاسم الأول</string>
+    <string name="last_name_hint">اسم العائلة</string>
+    <string name="phone_number_hint">رقم الهاتف</string>
+    <string name="save_profile_button">حفظ الملف الشخصي</string>
+
+    <string name="nav_header_desc">صورة الملف الشخصي</string>
+    <string name="nav_header_title">اسمك</string>
+    <string name="nav_header_subtitle">عنوانك الفرعي</string>
+</resources>

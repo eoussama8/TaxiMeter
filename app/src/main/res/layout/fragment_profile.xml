@@ -1,0 +1,108 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/color3">
+
+    <!-- Profile Image -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="centerCrop"
+        android:src="@android:drawable/ic_menu_camera"
+        app:shapeAppearanceOverlay="@style/CircularImageView"
+        app:strokeColor="@color/color2"
+        app:strokeWidth="2dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Upload Photo Button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/uploadPhotoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_camera"
+        app:fabSize="mini"
+        app:backgroundTint="@color/color2"
+        android:tint="@color/color1"
+        app:layout_constraintBottom_toBottomOf="@id/profileImageView"
+        app:layout_constraintEnd_toEndOf="@id/profileImageView"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginBottom="-8dp"/>
+
+    <!-- First Name Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/firstNameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@id/profileImageView"
+        style="@style/CustomTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/first_name_hint"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Last Name Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lastNameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/firstNameLayout"
+        style="@style/CustomTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lastNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/last_name_hint"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Phone Number Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/phoneLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/lastNameLayout"
+        style="@style/CustomTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_number_hint"
+            android:inputType="phone"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Save Profile Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_profile_button"
+        android:padding="12dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/color2"
+        android:textColor="@color/color1"
+        app:cornerRadius="8dp"
+        app:layout_constraintTop_toBottomOf="@id/phoneLayout"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

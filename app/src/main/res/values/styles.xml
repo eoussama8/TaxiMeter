@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Default ShapeAppearance style for general use -->
+    <style name="ShapeAppearance">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <!-- Circular shape for specific use cases like ShapeableImageView -->
+    <style name="ShapeAppearance.Circular">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item> <!-- 50% will make it circular -->
+    </style>
+
+    <!-- CircularImageView style -->
+    <style name="CircularImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Custom TextInputLayout style -->
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/color2</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="hintTextColor">@color/color2</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="boxBackgroundColor">@color/color1</item>
+    </style>
+
+</resources>
